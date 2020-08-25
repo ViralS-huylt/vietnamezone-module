@@ -1,0 +1,13 @@
+{
+    "name": "VietNamZone",
+    "alias": "vietnamzone",
+    "description": "",
+    "keywords": [],
+    "order": 0,
+    "providers": [
+        "Modules\\VietNamZone\\Providers\\VietNamZoneServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

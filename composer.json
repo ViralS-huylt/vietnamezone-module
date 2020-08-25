@@ -1,0 +1,30 @@
+{
+    "name": "virals-huylt/vietnamzone-module",
+    "description": "",
+    "authors": [
+        {
+            "name": "Huylt",
+            "email": "huylt@viralsoft.com"
+        }
+    ],
+    "license": "MIT",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\VietNamZone\\Providers\\VietNamZoneServiceProvider"
+            ],
+            "aliases": {
+
+            }
+        }
+    },
+    "require": {
+        "laraviet/core-module": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\VietNamZone\\": ""
+        }
+    },
+    "type": "laravel-module"
+}
